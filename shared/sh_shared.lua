@@ -2,7 +2,7 @@ Shared = Shared or {}
 
 --- Other
 Shared.Debug = false
-Shared.CopJob = "police"
+Shared.CopJob = "leo"   -- Vitto, keep it as "leo"
 Shared.Dispatch = "ps-dispatch"
 
 --- Items
