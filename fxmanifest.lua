@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-version '1.6.0'
+version '1.6.1'
 description 'Project Sloth Weedplanting script'
 author 'Lionh34rt'
 
@@ -22,8 +22,7 @@ server_script {
     '@oxmysql/lib/MySQL.lua',
     'server/sv_planting.lua',
     'server/sv_processing.lua',
-    'server/sv_weedrun.lua',
-	'server/sv_versioncheck.lua'
+    'server/sv_weedrun.lua'
 }
 
 dependencies {
