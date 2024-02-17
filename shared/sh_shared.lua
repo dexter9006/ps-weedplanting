@@ -50,7 +50,7 @@ Shared.PackageProp = `prop_mp_drug_package`
 --- Growing Related Settings
 Shared.rayCastingDistance = 7.0 -- distance in meters
 Shared.ClearOnStartup = true -- Clear dead plants on script start-up
-Shared.ObjectZOffset = - 0.5 -- Z-coord offset for WeedProps
+Shared.ObjectZOffset = - 0.6 -- Z-coord offset for WeedProps
 Shared.FireTime = 10000
 
 Shared.GrowTime = 180 -- Time in minutes for a plant to grow from 0 to 100
@@ -69,7 +69,7 @@ Shared.PackageAmount = 20 -- Amount of Shared.WeedItem required to create a pack
 Shared.PackageTime = 2 -- Time in minutes to wait for packaging
 Shared.DeliveryWaitTime = {8, 12} -- Time in seconds (min, max) the player has to wait to receive a new delivery location
 Shared.CallCopsChance = 20 -- 20%
-Shared.PayOut = {16000, 20000} -- Min/max payout for delivering a suspicious package
+Shared.PayOut = {1600, 2000} -- Min/max payout for delivering a suspicious package
 
 Shared.DropOffLocations = { -- Drop-off locations
     vector4(74.5, -762.17, 31.68, 160.98),
