@@ -2,7 +2,7 @@ local Locales = {
 	['place_sapling'] = 'Plantation du semis en cours..',
 	['canceled'] = 'Annulé..',
 	['place_or_cancel'] = '[E] - Planter / [G] - Annuler',
-	['missing_filling_water'] = 'Il vous manque quelque chose pour remplir l'eau..',
+	['missing_filling_water'] = 'Il vous manque quelque chose pour remplir l\'eau..',
 	['missing_water'] = 'Il vous manque quelque chose pour arroser la plante..',
 	['missing_fertilizer'] = 'Vous n\'avez pas de fertilisant..',
 	['missing_mseed'] = 'Vous n\'avez pas de graine mâle..',
@@ -62,5 +62,5 @@ local Locales = {
 }
 
 function _U(entry)
-	return Locales[entry] 
+	return Locales[entry]
 end
